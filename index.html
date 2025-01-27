@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unit Converter</h1>
+        <div class="controls">
+            <select id="unit-type">
+                <option value="currency">Currency</option>
+                <option value="length">Length</option>
+                <option value="mass">Mass</option>
+                <option value="temperature">Temperature</option>
+                <option value="energy">Energy</option>
+                <option value="volume">Volume</option>
+                <option value="pressure">Pressure</option>
+                <option value="speed">Speed</option>
+                <option value="area">Area</option>
+                <option value="time">Time</option>
+                <option value="power">Power</option>
+                <option value="data">Data</option>
+                <option value="angle">Angle</option>
+            </select>
+
+            <div class="button-container">
+                <button id="same-system-btn">Same System</button>
+                <button id="different-system-btn">Different System</button>
+            </div>
+
+            <!-- Only show these when "Different System" is selected -->
+            <select id="from-system" style="display:none;">
+                <option value="si">SI</option>
+                <option value="imperial">Imperial</option>
+                <option value="us">US</option>
+            </select>
+
+            <select id="to-system" style="display:none;">
+                <option value="si">SI</option>
+                <option value="imperial">Imperial</option>
+                <option value="us">US</option>
+            </select>
+
+            <!-- The unit selectors -->
+            <select id="from-unit"></select>
+            <select id="to-unit"></select>
+
+            <!-- Input fields -->
+            <input type="number" id="input-value" placeholder="Input Value">
+            <button id="convert-btn">Convert</button>
+            <input type="text" id="output-value" readonly placeholder="Output Value">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

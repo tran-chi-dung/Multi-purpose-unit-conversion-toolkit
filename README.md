@@ -3,9 +3,9 @@ Multi Purpose Unit Conversion Toolkit is a web-based tool that analyzes numeric 
 
 ## Features
 
-Supports measurement parameters such as currency, volume, mass, length, temperature, energy, area, speed, time, power, data, pressure, angle
-Can convert units within the same SI, US and Imperial systems and cross-convert between this measurement systems
-The user interface is intuitive, simple and easy to use
+-Supports measurement parameters such as currency, volume, mass, length, temperature, energy, area, speed, time, power, data, pressure, angle
+-Can convert units within the same SI, US and Imperial systems and cross-convert between this measurement systems
+-The user interface is intuitive, simple and easy to use
 
 ## Demo
 https://drive.google.com/file/d/1OYMCZasxPxjqq21-sfoqXl1t86GidepJ/view?usp=sharing 

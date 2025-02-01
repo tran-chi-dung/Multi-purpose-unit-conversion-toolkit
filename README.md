@@ -1,11 +1,11 @@
-# Advanced Sequence Pattern Optimize
+# Multi Purpose Unit Conversion Toolkit
 Multi Purpose Unit Conversion Toolkit is a web-based tool that analyzes numeric sequences and detects complex patterns such as arithmetic, geometric, polynomial, Fibonacci, and more. It also provides statistical insights into sequences, including total sum, average, standard deviation, and monotonicity.
 
 ## Features
 
--Supports measurement parameters such as currency, volume, mass, length, temperature, energy, area, speed, time, power, data, pressure, angle
--Can convert units within the same SI, US and Imperial systems and cross-convert between this measurement systems
--The user interface is intuitive, simple and easy to use
+Supports measurement parameters such as currency, volume, mass, length, temperature, energy, area, speed, time, power, data, pressure, angle
+Can convert units within the same SI, US and Imperial systems and cross-convert between this measurement systems
+The user interface is intuitive, simple and easy to use
 
 ## Demo
 https://drive.google.com/file/d/1OYMCZasxPxjqq21-sfoqXl1t86GidepJ/view?usp=sharing 
